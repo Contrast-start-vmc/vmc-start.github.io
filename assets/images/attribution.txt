@@ -1,0 +1,14 @@
+<a href="https://www.flaticon.com/free-icons/book" title="book icons">Book icons created by Freepik - Flaticon</a>
+
+https://www.flaticon.com/authors/special/flat?author_id=1&type=standard
+
+https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg
+
+<a href="https://www.flaticon.com/free-icons/safety" title="safety icons">Safety icons created by Freepik - Flaticon</a>
+
+
+                        <a href="https://portal.office.com/account#installs&SoftwareManageLayout=Panel_MicrosoftOffice_ClientDownload" class="content-box">
+                            <i><img src="assets/images/laptop.png" alt=""></i>
+                            <tile>Install Office365 Apps</tile>
+                            <small>Whakataupānga 365</small>  
+                        </a>

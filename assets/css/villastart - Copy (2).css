@@ -1,0 +1,333 @@
+
+/* 
+---------------------------------------------
+font
+--------------------------------------------- 
+*/
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
+
+a {
+  text-decoration: none !important;
+}
+
+
+/* 
+---------------------------------------------
+Background
+--------------------------------------------- 
+*/
+body, html
+ {
+  background-color: #313D6D;
+  font-family: "Raleway";
+  padding-bottom: 50px;
+  margin:0;
+  padding: 0;
+  padding: 0;
+ border: 0;
+
+}
+
+/* 
+
+---------------------------------------------
+Header
+--------------------------------------------- 
+*/
+.header {
+  background-color: #e2eef9;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 1200px; 	
+  margin: auto;
+}
+.header2 {
+  background-color: rgba(226,238,249,0.5);
+  padding-top: 15px;
+  padding-bottom: 20px;	
+  width: 1200px; 	
+  margin: auto;
+}
+/* 
+---------------------------------------------
+Content boxes
+--------------------------------------------- 
+*/
+
+
+.content-section {
+  position: center;
+  z-index: 3;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 1200px; 
+  margin: auto;
+}
+
+.img-center { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.content-section-heading h2 {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+
+
+.content-box  {
+  background: #e2eef9;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.20);
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  width: 271px;
+  height: 120px;
+  padding: 30px;
+  margin: 4px;
+  display: inline-block;
+}
+
+.content-box:hover {
+  transform: scale(1.1); 
+  z-index: 1;
+}
+
+.content-box tile {
+  display: block;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.content-box small {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.content-boxdark  {
+  background: #d2e4f6;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.20);
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  width: 271px;
+  height: 120px;
+  padding: 30px;
+  margin: 4px;
+  display: inline-block;
+}
+
+.content-boxdark:hover {
+  transform: scale(1.1); 
+  z-index: 1;
+}
+
+.content-boxdark tile {
+  display: block;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.content-boxdark small {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.content-onenote {
+  background-color: #bd90d6;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.20);
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  width: 271px;
+  height: 90px;
+  padding: 20px;
+  margin: 4px;
+  display: inline-block;
+}
+.content-onenote:hover {
+  transform: scale(1.1); 
+  z-index: 1;
+}
+
+.content-onenote tile {
+  display: block;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+	
+.content-outlook {
+  background-color: #84beea;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.20);
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  width: 271px;
+  height: 90px;
+  padding: 20px;
+  margin: 4px;
+  display: inline-block;
+}
+.content-outlook:hover {
+  transform: scale(1.1); 
+  z-index: 1;
+}
+
+.content-outlook tile {
+  display: block;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.content-teams {
+  background-color: #a8acdf;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.20);
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  width: 271px;
+  height: 90px;
+  padding: 20px;
+  margin: 4px;
+  display: inline-block;
+}
+.content-teams:hover {
+  transform: scale(1.1); 
+  z-index: 1;
+}
+
+.content-teams tile {
+  display: block;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.content-onedrive {
+  background-color: #97d5f4;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.20);
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  width: 271px;
+  height: 90px;
+  padding: 20px;
+  margin: 4px;
+  display: inline-block;
+}
+.content-onedrive:hover {
+  transform: scale(1.1); 
+  z-index: 1;
+}
+
+.content-onedrive tile {
+  display: block;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.content-onedrive {
+  background-color: #97d5f4;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.20);
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  width: 271px;
+  height: 90px;
+  padding: 20px;
+  margin: 4px;
+  display: inline-block;
+}
+.content-onedrive:hover {
+  transform: scale(1.1); 
+  z-index: 1;
+}
+
+.content-word tile {
+  display: block;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.content-word {
+  background-color: #749CD7;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.20);
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  width: 271px;
+  height: 90px;
+  padding: 20px;
+  margin: 4px;
+  display: inline-block;
+}
+.content-word:hover {
+  transform: scale(1.1); 
+  z-index: 1;
+}
+
+.content-excel tile {
+  display: block;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.content-excel {
+  background-color: #05C8CF;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.20);
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  width: 271px;
+  height: 90px;
+  padding: 20px;
+  margin: 4px;
+  display: inline-block;
+}
+.content-excel:hover {
+  transform: scale(1.1); 
+  z-index: 1;
+}
+
+
+/* 
